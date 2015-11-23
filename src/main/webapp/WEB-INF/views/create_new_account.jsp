@@ -3,31 +3,26 @@
 <html xmlns:form="http://www.springframework.org/tags/form">
  
 	<body>
-		<form action="&_eventId=loginCredentialsEntered" method="post">
+		<form action="&_eventId=accountInformationEntered" method="post">
 		 
 			<input type="hidden" name="_flowExecutionKey" value=""/>
-			<br/>
-			<b>
-				Create a new account and then login
-			</b>
+			 
 			<br/>
 			<br/>
 			<table>
 				<tr>
-					<td>Login Name:</td>
+					<td>New Login Name:</td>
 					<td><input type="text" name="loginName"/></td>
 				</tr>
 				<tr>
-					<td>Password: </td>
+					<td>Enter Password: </td>
 					<td><input type="text" name="password"/></td>
 				</tr>
 			</table>
 			 
 			<br/>
-			<input type="submit" value="Login" />
-		 
+			<input type="submit" value="Submit" />
+			 
 		</form>
-	 
-		<a href="&_eventId=createNewAccountRequested">Create New Account</a>
 	</body>
 </html>
